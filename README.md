@@ -1,0 +1,1 @@
+This is a script I created in python that deduplicates a csv file before insert it into a table that I've already created in my test database.  For safety reasons my server name is fake as well as the file path location. 
