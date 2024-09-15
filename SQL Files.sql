@@ -104,7 +104,7 @@ FROM Logistics.dbo.Customer;
 
 
 
-SELECT TOP 5
+SELECT 
        ED.E_NAME,
        DATEDIFF(YEAR, EM.Start_date, EM.End_date) AS YearsWorked
 FROM Logistics.dbo.Employee_Details AS ED
@@ -123,7 +123,7 @@ AS
 BEGIN
     SET NOCOUNT ON;
 
-    SELECT TOP 5
+    SELECT 
            C.C_ID,
            C.C_NAME AS Name,
            SUM(   CASE
